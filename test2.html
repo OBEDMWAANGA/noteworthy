@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Fees</title>
+<style>
+  body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .card {
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #0E70C7;
+    color: white;
+    padding: 5px;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .card-content {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  .amount {
+    font-size: 16px;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+  <div class="card">
+    <div class="card-title">NURSERY </div>
+    <div class="card-content">ZMW 1,200.00</div>
+    <div class="amount">per term</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">LOWER PRIMARY (GRADE 1 – 4)</div>
+    <div class="card-content">ZMW 1000.00</div>
+    <div class="amount">per term</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">UPPER PRIMARY (GRADE 5 – GRADE 7) </div>
+    <div class="card-content">ZMW 1000.00</div>
+    <div class="amount">per session</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">EXTRACURRICULAR ACTIVITIES</div>
+    <div class="card-content">ZMW 1000</div>
+    <div class="amount">per Activity</div>
+  </div>
+</div>
+
+</body>
+</html>
